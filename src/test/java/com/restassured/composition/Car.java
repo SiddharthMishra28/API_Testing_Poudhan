@@ -1,9 +1,17 @@
 package com.restassured.composition;
 
 // IS-A
-public class Car extends Vehicle {
+public class Car {
     private String model;
     private Engine engine; // HAS-A
+
+    public Car(String model, Engine engine) {
+        this.model = model;
+        this.engine = engine;
+    }
+
+    public Car() {
+    }
 
     public String getModel() {
         return model;

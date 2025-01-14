@@ -13,6 +13,9 @@ public class Engine {
         this.transmission = transmission;
     }
 
+    public Engine() {
+    }
+
     public int getMaxCapacityInCc() {
         return maxCapacityInCc;
     }

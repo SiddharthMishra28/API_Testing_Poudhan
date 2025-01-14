@@ -11,6 +11,9 @@ public class Transmission {
         this.maxTorque = maxTorque;
     }
 
+    public Transmission() {
+    }
+
     public String getType() {
         return type;
     }
